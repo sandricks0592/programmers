@@ -6,3 +6,4 @@ def solution(num_list, n):
     return answer
 
 # 기존 배열을 슬라이싱해준다음 새로운 배열에 저장하고 더해준다.
+# slicing 기억하기
