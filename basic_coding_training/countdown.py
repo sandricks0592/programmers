@@ -6,6 +6,7 @@ def solution(start_num, end_num):
 
 # range()는 숫자 시퀀스를 만들기 위해 필수적이고, 반복을 자동화 해준다.
 # 또한 직접 일일이 쓰지 않아도 되니 코드의 간결성
+# iterable 조건 생각해보기
 
 def solution2(start_num, end_num):
     answer = []
