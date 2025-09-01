@@ -16,3 +16,4 @@ def solution(my_string, alp):
 
 print(solution("programmers","p"))
 
+# replace 사용법 기억하기
