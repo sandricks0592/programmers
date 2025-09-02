@@ -10,3 +10,4 @@ def solution(n):
 
 print(solution(7))
 
+# range의 특성을 좀 더 생각하자.
