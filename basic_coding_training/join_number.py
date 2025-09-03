@@ -26,3 +26,5 @@ def solution(num_list):
 num_list = [3,4,5,2,1]
 
 print(solution(num_list))
+
+# 문제 조금더 자세히 보기! 문자열 + int 할 때 오류 발생 주의하기!
