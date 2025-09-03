@@ -9,3 +9,5 @@ def solution(arr, k):
 arr = [1, 2, 3, 100, 99, 98]
 k = 3
 print(solution(arr,k))
+
+# for 문을 보다 더 간단하게 쓸 수 있다.
