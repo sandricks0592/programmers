@@ -15,4 +15,6 @@ def solution(a, d, included):
             answer += term
     return answer
 
+# 불리언에서 true 조건은 if에 그냥 대입해도 되는거 기억하기
+
 print(solution(3,4,	[True,False,False,True,True]))
