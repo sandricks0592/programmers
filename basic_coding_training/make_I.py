@@ -8,7 +8,7 @@
 def solution(myString):
     answer = ''
     for ch in myString:
-        if ch.upper() <= "I":
+        if ch.upper() <= "L":
             answer += "l"
         else:
             answer += ch
