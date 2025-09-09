@@ -7,6 +7,8 @@ def solution(arr, queries):
     answer = arr
     return answer
 
+# range() 좀 더 잘 활용하기
+
 arr = [0, 1, 2, 4, 3]
 queries = [[0, 4, 1],[0, 3, 2],[0, 3, 3]]
 
