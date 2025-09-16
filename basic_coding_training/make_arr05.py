@@ -23,3 +23,5 @@ s = 5
 l = 5
 
 print(solution(intStrs, k, s, l))
+
+# 범위를 굳이 안잡아도 됌 else를 안써도 됌 너무 복잡하게 쓰지말자 for 문을 사용하면 간결하게 쓸수있다.
