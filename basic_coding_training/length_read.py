@@ -9,3 +9,5 @@ my_string = "ihrhbakrfpndopljhygc"
 m = 4
 c = 2
 print(solution(my_string, m, c))
+
+# list랑 string 생각해보기

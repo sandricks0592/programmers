@@ -1,0 +1,28 @@
+# def solution(my_string):
+#     answer = []
+#     my_string = list(map(str.upper, my_string))
+#     for i in my_string:
+#         if i == 'A':
+#             answer += 1
+#         elif i !=
+#         .
+#         .
+#         .
+#         .
+    
+#     return answer
+
+def solution(my_string):
+    answer = []
+    answer = [0]*52
+    for c in my_string:
+        if'A' <= c <= 'Z':
+            answer[ord(c)-ord('A')] += 1    # 대문자
+        elif'a' <= c <= "z":
+            answer[ord(c)-ord('a')] += 1    # 소문자
+
+    return answer
+my_string = "Programmers"
+print(solution(my_string))
+
+# ord()는 아스키 코드를 이용, 아스키 코드의 차로 인덱스 구별
