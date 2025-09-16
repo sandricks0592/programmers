@@ -14,12 +14,12 @@
 
 def solution(my_string):
     answer = []
-    answer = [0]*52
+    answer = [0]*52 # 미리 리스트를 만들기
     for c in my_string:
         if'A' <= c <= 'Z':
             answer[ord(c)-ord('A')] += 1    # 대문자
         elif'a' <= c <= "z":
-            answer[ord(c)-ord('a')] += 1    # 소문자
+            answer[ord(c)-ord('a')+26] += 1    # 소문자
 
     return answer
 my_string = "Programmers"
