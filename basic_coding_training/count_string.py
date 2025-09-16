@@ -25,4 +25,4 @@ def solution(my_string):
 my_string = "Programmers"
 print(solution(my_string))
 
-# ord()는 아스키 코드를 이용, 아스키 코드의 차로 인덱스 구별
+# ord()는 아스키 코드를 이용, 아스키 코드의 차로 인덱스 구별, 아스키 코드 번호를 확인해보고 차별성을 두기 위해 26 더하는 것 까지 기억하기
