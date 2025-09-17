@@ -19,3 +19,5 @@ def solution(arr, intervals):
 arr = [1, 2, 3, 4, 5]
 intervals = [[1, 3], [0, 4]]
 print(solution(arr, intervals))
+
+# 너무 복잡하게 생각하지말고 간단하게 쪼개어 생각하기
