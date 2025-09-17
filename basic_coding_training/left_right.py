@@ -12,3 +12,5 @@ def solution(str_list):
 
 str_list = ["r","r","d","r"]	
 print(solution(str_list))
+
+#  if 조건문의 위치에 따라 바로 끝나버릴수도있기에 l, r 둘다 아닐 경우는 따로 빼준다는걸 기억하기
