@@ -9,3 +9,5 @@ def solution(n_str):
 
 n_str = '0010'
 print(solution(n_str))
+
+# ''.join은 리스트를 문자열로 다시 바꿔주는거 기억하기
