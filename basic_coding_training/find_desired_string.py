@@ -9,3 +9,5 @@ def solution(myString, pat):
 myString = "AbCdEfG"
 pat = "aBc"
 print(solution(myString, pat))
+
+# string.upper() 형식을 기억하기
