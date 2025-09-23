@@ -18,3 +18,4 @@ def solution(strArr):
 strArr = ["and","notad","abcd"]
 print(solution(strArr))
 
+# 삭제하기보다 ad가 없는 요소를 새로운 리스트 answer에 추가하기
