@@ -4,9 +4,11 @@ def solution(binomial):
     if A[1] == '+':
         answer = int(A[0]) + int(A[2])
     elif A[1] == '-':
-        answer = int(A[0]) + int(A[2])
+        answer = int(A[0]) - int(A[2])
     elif A[1] == '*':
         answer = int(A[0]) * int(A[2])
+    else:
+        return 0
     return answer
 
 binomial = "43 + 12"
