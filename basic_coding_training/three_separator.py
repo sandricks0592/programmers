@@ -28,3 +28,5 @@ def solution(myStr):
 
 myStr = "dddddd"
 print(solution(myStr))
+
+#  if not 이용하기
