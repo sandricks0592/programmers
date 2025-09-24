@@ -3,7 +3,7 @@
 #     for v,k in zip(arr, flag):
 #         for i in range(len(flag)):
 #             if k[i] == True:
-#                 answer.extend([v]*2)
+#                 answer.extend([v]*(v*2))
 #             else:
 #                 answer.pop(k[-1])
 #     return answer
