@@ -9,3 +9,5 @@ def solution(board, k):
 board = [[0, 1, 2],[1, 2, 3],[2, 3, 4],[3, 4, 5]]	
 k = 2
 print(solution(board, k))
+
+# 이차원 배열을 쓸때는 이중 for문을 써야 한다.
