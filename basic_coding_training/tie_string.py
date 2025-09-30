@@ -19,3 +19,5 @@ def solution(strArr):
 
 strArr = ["a","bc","d","efg","hi"]
 print(solution(strArr))
+
+# dic사용하는 방법과 .get()메서드 사용하는 방법 생각하기
