@@ -1,6 +1,6 @@
 def solution(num_list):
     answer = []
-    answer.append(num_list,reverse=True)
+    answer = num_list[::-1]
     return answer
     
 
