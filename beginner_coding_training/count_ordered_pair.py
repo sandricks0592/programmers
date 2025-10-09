@@ -7,3 +7,4 @@ def solution(n):
 
 n = 20
 print(solution(n))
+# 기억!! range()를 하면 0부터 시작이니 연산 실수갸 발생할 수 있다.
