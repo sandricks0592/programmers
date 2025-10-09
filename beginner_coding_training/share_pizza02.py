@@ -11,3 +11,5 @@ def solution(n):
 
 n = 10
 print( solution(n))
+
+# 같은 피자 수를 받는 조건을 좀더 생각해보기
