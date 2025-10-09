@@ -8,3 +8,5 @@ def solution(n):
 
 n = int(input())
 print(solution(n))
+
+# 타입 구별하는거 기억하기. 값은 같아도 타입은 다를수도 있다.
