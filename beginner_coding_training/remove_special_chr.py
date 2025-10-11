@@ -8,3 +8,5 @@ def solution(my_string, letter):
 my_string = "abcdef"
 letter = 'f'
 print(solution(my_string, letter))
+
+# string도 쪼개어서 비교 사용 가능하다.
