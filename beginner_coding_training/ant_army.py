@@ -6,9 +6,11 @@ def solution(hp):
     if hp % general >= 0:
         answer += hp // general
         if(hp % general) %soldier >= 0:
-            answer += (hp % general) % soldier
+            answer += (hp % general) // soldier
             if((hp % general) % soldier) % worker >= 0:
-                answer += ((hp % general) % soldier) % worker
+                answer += ((hp % general) % soldier) // worker
     return answer
 hp = 23
 print(solution(hp))
+
+# 들여쓰기 조심
