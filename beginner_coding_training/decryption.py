@@ -7,3 +7,5 @@ def solution(cipher, code):
 cipher = "dfjardstddetckdaccccdegk"
 code = 4
 print(solution(cipher, code))
+
+#  출력값의 시작점 고려하기
