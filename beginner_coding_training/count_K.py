@@ -11,4 +11,4 @@ j = 13
 k = 1
 print(solution(i, j, k))
 
-# 
+# .count 이용하기!!
