@@ -43,9 +43,21 @@ def solution(keyinput, board):
 
     return answer
 
+def solution2(keyinput, board):
+    x_lim,y_lim = board[0]//2,board[1]//2
+    move = {'left':(-1,0),'right':(1,0),'up':(0,1),'down':(0,-1)}
+    x,y = 0,0
+    for k in keyinput:
+        dx,dy = move[k]
+        if abs(x+dx)>x_lim or abs(y+dy)>y_lim:
+            continue
+        else:
+            x,y = x+dx,y+dy
+
+    return [x,y]
 
 keyinput = ["left", "right", "up", "right", "right"]
 board = [11,11]
 print(solution(keyinput, board))
 
-#  limit을 넘길때 조건을 따로 분리해주기
+#  limit을 넘길때 조건을 따로 분리해주기, dic를 사용 할 수도 있다.
