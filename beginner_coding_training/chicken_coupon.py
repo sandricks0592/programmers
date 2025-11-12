@@ -10,4 +10,4 @@ def solution (chicken):
 chicken = 100
 print(solution (chicken))
 
-# 
+# 치킨 양과 서비스 횟수를 따로 생각하기
