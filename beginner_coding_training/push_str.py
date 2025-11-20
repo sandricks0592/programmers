@@ -5,7 +5,6 @@ def solution(A, B):
             return i
         A = A[-1]+A[:-1]
     
-    
     return -1
 
 A = "hello"
