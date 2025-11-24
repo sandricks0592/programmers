@@ -10,3 +10,6 @@ def solution(s):
 
 s = "1 2 Z 3"
 print(solution(s))
+
+
+# 최신값을 뺄 떄는 stack 생각하기
